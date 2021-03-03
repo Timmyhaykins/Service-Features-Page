@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f6f1f6;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    color: black;
+    font-size: 11px;
+    font-family:Georgia;
+}
+
+nav a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    color: black;
+    font-weight:bolder;
+}
+
+#heading{
+    text-align: center;
+    padding: 5px;
+}
+
+#heading p{
+   text-align: center;
+    /* font-weight: bold; */
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+}
+
+#heading h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: ultra-condensed;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vw;
+    height: 100vh; 
+    padding: 0px 40px;
+    margin-top: 80px;
+
+}
+
+#image-item1{
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    margin: 0px 20px;
+}
+
+#image-item2{
+    width: 25%;
+    height: 100%;
+    /* background-color:black; */
+    margin: 0px 20px;
+}
+
+#image-item3{
+    width: 50%;
+    height: 100%;
+    margin: 0px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+}
+
+#image-item1 img{
+    width: 80%;
+    padding: 10%;
+    /* background-color: #f6f1f6; */
+}
+
+#image-item2 img{
+    width: 80%;
+    padding:10%;
+    /* background-color: #f6f1f6; */
+}
+
+#image-item3 img{
+    width: 100%;
+    position: relative;
+    top: -3%;
+    transform: rotate(-15deg);
+}
+
+#image-item1 .storage-text h3{
+    padding: 0px 30px;
+    font-weight: 900;
+}
+
+#image-item1 .storage-text p{
+    padding: 30px;
+}
+
+#image-item2 .software-text h3{
+    padding: 0px 30px;
+    font-weight: 900;
+}
+
+#image-item2 .software-text p{
+    padding: 30px;
+}
+
+#image-item3 .delivery-text h3{
+    padding: 0px 30px;
+    font-weight: 900;
+}
+
+#image-item3 .delivery-text p{
+    padding: 30px;
+}
